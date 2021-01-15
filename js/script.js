@@ -1,7 +1,7 @@
 const BTN_NODE = document.querySelector('.j-btn-request'); //Кнопка исполнения кода
 const RESULT_NODE = document.querySelector('.j-result'); //Поле, где будет выводиться результат
 
-//Да, ментор говорил, что анонимные функции полная шляпа и что в целом этот код ужасный, но я не смог найти в себе силы его переписать... 
+
 const USE_REQUEST = () => {
   //Находим инпут номера страницы
   const ONE_INPUT_NODE = document.querySelector('.j-inpt').value;
@@ -99,7 +99,7 @@ const USE_REQUEST = () => {
       
     }
   }
-  //Временно, что бы понимать что происходит. В финальной версии закомментирую вывод в консоль. 
+  
   console.log(valOne())
   
 }
